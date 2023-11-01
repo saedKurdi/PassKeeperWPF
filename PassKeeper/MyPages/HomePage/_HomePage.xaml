@@ -1,0 +1,27 @@
+﻿<Page x:Class="PassKeeper.MyPages.MainPage._MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PassKeeper.MyPages.MainPage"
+      mc:Ignorable="d" 
+        Name="home_page"
+      d:DesignHeight="700" d:DesignWidth="375"
+      Title="_MainPage"
+      >
+
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Width="250" Height="67" Margin="66 75" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <Label Style="{StaticResource styleForPass}"/>
+            <Label Style="{StaticResource styleForKeeper}"/>
+        </StackPanel>
+
+        <StackPanel   HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="signin_btn" Style="{StaticResource btnStyle}" Content="Sign in"  Click="signin_btn_Click"/>
+            <Button Name="register_btn" Style="{StaticResource btnStyle}"  Background="#203C85"  Margin="0 25 0 0 " Content="Register"  Click="register_btn_Click"/>
+        </StackPanel>
+
+        <Label FontSize="12" FontFamily="Josefin Sans" FontWeight="Light"  Content="a product by Product Design LLC" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Page>

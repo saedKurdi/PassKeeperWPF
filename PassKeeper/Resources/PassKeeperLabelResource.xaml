@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    >
+
+    <Style x:Key="styleForPass" TargetType="Label">
+        <Setter Property="Content" Value="Pass"/>
+        <Setter Property="FontSize" Value="41"/>
+        <Setter Property="FontFamily" Value="Josefin Sans"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="#203C85"/>
+    </Style>
+
+    <Style x:Key="styleForKeeper" TargetType="Label">
+        <Setter Property="Content" Value="Keeper"/>
+        <Setter Property="FontSize" Value="41"/>
+        <Setter Property="FontFamily" Value="Josefin Sans"/>
+        <Setter Property="FontWeight" Value="ExtraLight"/>
+        <Setter Property="Foreground" Value="#365090"/>
+    </Style>
+    
+</ResourceDictionary>

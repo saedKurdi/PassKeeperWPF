@@ -1,0 +1,29 @@
+﻿<Page x:Class="PassKeeper.MyPages.RegisterPage._RegisterPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PassKeeper.MyPages.RegisterPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="375"
+      Title="_RegisterPage">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" Width="250" Height="67" Margin="66 75" Orientation="Horizontal" Grid.ColumnSpan="2">
+            <Label Style="{StaticResource styleForPass}"/>
+            <Label Style="{StaticResource styleForKeeper}"/>
+        </StackPanel>
+
+        <StackPanel   HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <TextBox Name="firstname_txtbox" MouseEnter="firstname_txtbox_MouseEnter" MouseLeave="firstname_txtbox_MouseLeave" Text="first name" FontSize="32" Foreground="#C0C0C0" Margin="0 80 0 20" Width="260" Height="60" />
+            <TextBox Name="lastname_txtbox" MouseEnter="lastname_txtbox_MouseEnter" MouseLeave="lastname_txtbox_MouseLeave" Text="last name" FontSize="32" Foreground="#C0C0C0" Width="260" Margin="0 0 0 20" Height="60"/>
+            <TextBox Name="email_txtbox" MouseEnter="email_txtbox_MouseEnter" MouseLeave="email_txtbox_MouseLeave"  Text="e - mail" FontSize="32" Foreground="#C0C0C0" Width="260" Height="60"/>
+
+            <Button Width="261" Margin="0 35 0 0" Height="54" Name="signin_btn" Style="{StaticResource btnStyle}" Content="Sign in" Click="signin_btn_Click"  />
+            <Button  Width="261" Height="54" Name="back_btn" Style="{StaticResource btnStyle}"  Background="#203C85" Click="back_btn_Click"  Margin="0 25 0 0 " Content="Back" />
+        </StackPanel>
+
+        <Label FontSize="12" FontFamily="Josefin Sans" FontWeight="Light"  Content="a product by Product Design LLC" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MyPages\HomePage\_HomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\LoginPage\ForgotPassword\CreateNewPassDonePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\LoginPage\ForgotPassword\CreateNewPassPagew.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\LoginPage\ForgotPassword\ForgotPassActivateCodePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\LoginPage\ForgotPassword\ForgotPassSendCodePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\LoginPage\_LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\RegisterPage\RegisterDonePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\RegisterPage\RegisterPasswordPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyPages\RegisterPage\_RegisterPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MyWindows\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MyPages\HomePage\_HomePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\LoginPage\ForgotPassword\CreateNewPassDonePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\LoginPage\ForgotPassword\CreateNewPassPagew.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\LoginPage\ForgotPassword\ForgotPassActivateCodePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\LoginPage\ForgotPassword\ForgotPassSendCodePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\LoginPage\_LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\RegisterPage\RegisterDonePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\RegisterPage\RegisterPasswordPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyPages\RegisterPage\_RegisterPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MyWindows\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\ButtonResources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\PassKeeperLabelResource.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
